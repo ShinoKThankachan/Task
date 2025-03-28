@@ -1,0 +1,141 @@
+.main{
+    height: 100vh;
+}
+
+.inner{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    gap: 20px;
+    margin-left: 80px;
+}
+.bar1 ,.bar2, .bar3, .bar4{
+    background-color: rgb(247, 231, 226);
+    width: 400px;
+    height: 100vh;
+}
+.content{
+    position: relative;
+    bottom: 920px;
+    height: 900px;
+    
+}
+
+.top{
+    background-color: rgb(16, 16, 97);
+    height: 400px;
+}
+
+h2{
+    width: 300px;
+    color: white;
+    font-size: 1.6em;
+    padding-left: 100px;
+    padding-top: 30px;
+}
+
+.above-section{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    gap: 10px;
+
+}
+.card1{
+    color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+}
+.card2{
+    border: 1px solid white;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 120px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.below-section{
+    display: grid;
+    grid-template-columns: 6fr 1fr 1fr;
+    gap: 10px;
+}
+
+.below-card1{
+    border: 1px solid white;
+    background-color: white;
+    margin-right: 30px;
+    margin-top: 30px;
+    width: 120px;
+    height: 150px;
+    border-radius: 6px;
+}
+
+.below-card2{
+    color: white;
+    border: 1px solid white;
+    margin-top: 50px;
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+}
+.left{
+    margin-left: 100px;
+}
+.left p{
+    color: white;
+    width: 200px;
+}
+
+
+.bottom h2{
+    color: black;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.para p{
+    text-align: center;
+    
+}
+
+.card-section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-card1{
+    width: 600px;
+    margin-left: 150px;
+}
+
+.bottom-card1 button{
+    background-color: green;
+    color: white;
+}
+.bottom-card2{
+    width: 600px;
+    margin-left: 200px;
+}
+
+.bottom-card2 button{
+    background-color: green;
+    color: white;
+}
+
+.nav{
+    margin-left: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+    background-color: rgb(255,255,255,0.5);
+    position: relative;
+    bottom: 30px;
+    border: 1px solid transparent;
+    border-radius: 25px;
+}
